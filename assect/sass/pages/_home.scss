@@ -1,0 +1,70 @@
+.uretim{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    .uretim_basliq{
+        max-width: 80%;
+        h1{
+            font-size: 74px;
+            width: 400px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+        }
+        .uretim_melumat{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            h3{
+                font-size: 25px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            p{
+                font-size: 21px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .n1{
+                margin-right: 80px;
+                width: 700px;
+              
+            }
+            .n2{
+                width: 700px;
+            }
+        }
+
+    }
+}
+.satis{
+    width: 100%;
+    background-image: url("/assect/img/d7323f_a81977b3dd8f477e87d610727057ace2_mv2.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    .satis_basliq{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .h5n1{
+            font-size: 40px;
+            margin-top: 200px;
+            margin-bottom: 20px;
+        }
+    .h5n2{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h4{
+        font-size: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+}

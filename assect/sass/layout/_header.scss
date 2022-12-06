@@ -1,0 +1,54 @@
+header {
+  max-width: 100%;
+  background-image: url("/assect/img/d7323f_c02b7be460024134b2298d9e6bc8f8fa_mv2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  .basliq{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .icon{
+      display: flex;  
+      .icon_card{
+        width: 203px;
+        height: 203px;
+        background-color: white;
+        opacity: 0.8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin: 10px;
+
+        p{
+          font-size: 15px;
+          width: 150px;
+         text-align: center;
+        }
+      }
+    }
+    h1{
+        font-family: fantasy;
+        font-size: 78px;
+        color: white;
+        margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    p{
+        font-size: 36px;
+        margin-top: 15px;
+    margin-bottom: 15px;
+    }
+    h3{
+        font-size: 47px;
+        margin-top: 15px;
+    margin-bottom: 15px;
+    }
+  }
+ 
+}

@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+nav ul a {
+  color: white;
+}
+nav ul a:hover {
+  color: antiquewhite;
+  transition: 0.9s;
+}
+
+header {
+  max-width: 100%;
+  background-image: url("/assect/img/d7323f_c02b7be460024134b2298d9e6bc8f8fa_mv2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header .basliq {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .basliq .icon {
+  display: flex;
+}
+header .basliq .icon .icon_card {
+  width: 203px;
+  height: 203px;
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 10px;
+}
+header .basliq .icon .icon_card p {
+  font-size: 15px;
+  width: 150px;
+  text-align: center;
+}
+header .basliq h1 {
+  font-family: fantasy;
+  font-size: 78px;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header .basliq p {
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+header .basliq h3 {
+  font-size: 47px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 187px;
+}
+footer .fot_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .fot_div ul {
+  display: flex;
+}
+footer .fot_div ul a li {
+  color: white;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+footer .fot_div ul li:hover {
+  color: antiquewhite;
+  transition: 0.9s;
+}
+footer .fot_div .son {
+  display: flex;
+}
+footer .fot_div .son i {
+  color: white;
+  font-size: 24px;
+  margin-left: 10px;
+}
+footer .fot_div .son p {
+  color: white;
+  font-size: 24px;
+}
+
+.uretim {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.uretim .uretim_basliq {
+  max-width: 80%;
+}
+.uretim .uretim_basliq h1 {
+  font-size: 74px;
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.uretim .uretim_basliq .uretim_melumat {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.uretim .uretim_basliq .uretim_melumat h3 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.uretim .uretim_basliq .uretim_melumat p {
+  font-size: 21px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.uretim .uretim_basliq .uretim_melumat .n1 {
+  margin-right: 80px;
+  width: 700px;
+}
+.uretim .uretim_basliq .uretim_melumat .n2 {
+  width: 700px;
+}
+
+.satis {
+  width: 100%;
+  background-image: url("/assect/img/d7323f_a81977b3dd8f477e87d610727057ace2_mv2.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.satis .satis_basliq {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.satis .satis_basliq .h5n1 {
+  font-size: 40px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+.satis .satis_basliq .h5n2 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.satis .satis_basliq h4 {
+  font-size: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */
